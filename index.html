@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INCT IA.Edu — Instituto Nacional de Ciência e Tecnologia</title>
+    <meta
+      name="description"
+      content="INCT IA.Edu promove pesquisa, formação e soluções de Inteligência Artificial para a educação básica pública, com foco em equidade e em contextos de restrição de recursos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+  <body>
+    <div id="site-view">
+      <header class="site-header">
+        <div class="wrap">
+          <a class="brand" href="#home">
+            <img src="images/logo.svg" alt="INCT IA.Edu" />
+          </a>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span></span><span></span><span></span>
+          </button>
+
+          <nav class="main-nav" id="mainNav">
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#objetivos">Objetivos</a></li>
+              <li><a href="#membros">Membros</a></li>
+              <li><a href="#parceiros">Parceiros</a></li>
+              <li><a href="#contato">Contato</a></li>
+              <li>
+                <a href="#resultados">Painel de Resultados</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- ============ HERO ============ -->
+        <section id="home" class="hero">
+          <svg
+            class="hero-bg-net"
+            viewBox="0 0 1200 640"
+            preserveAspectRatio="xMidYMid slice"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <g stroke="#ffffff" stroke-width="1" opacity="0.14">
+              <line x1="60" y1="80" x2="260" y2="180" />
+              <line x1="260" y1="180" x2="180" y2="360" />
+              <line x1="260" y1="180" x2="480" y2="120" />
+              <line x1="480" y1="120" x2="640" y2="260" />
+              <line x1="640" y1="260" x2="560" y2="440" />
+              <line x1="640" y1="260" x2="860" y2="200" />
+              <line x1="860" y1="200" x2="1040" y2="340" />
+              <line x1="860" y1="200" x2="960" y2="60" />
+              <line x1="180" y1="360" x2="360" y2="480" />
+              <line x1="560" y1="440" x2="360" y2="480" />
+              <line x1="1040" y1="340" x2="1120" y2="500" />
+            </g>
+            <g fill="#ffffff" opacity="0.22">
+              <circle cx="60" cy="80" r="4" />
+              <circle cx="260" cy="180" r="6" />
+              <circle cx="180" cy="360" r="4" />
+              <circle cx="480" cy="120" r="5" />
+              <circle cx="640" cy="260" r="7" />
+              <circle cx="560" cy="440" r="4" />
+              <circle cx="860" cy="200" r="6" />
+              <circle cx="1040" cy="340" r="5" />
+              <circle cx="960" cy="60" r="4" />
+              <circle cx="360" cy="480" r="4" />
+              <circle cx="1120" cy="500" r="4" />
+            </g>
+          </svg>
+
+          <div class="wrap">
+            <div>
+              <h1>Instituto Nacional de Ciência e Tecnologia IA.Edu</h1>
+              <p class="hero-lead">
+                O INCT-IAEdu promove pesquisas, debates e desenvolvimento de
+                soluções para políticas públicas da educação básica, com foco em
+                aprendizagem com equidade, por meio do uso de IA Desplugada em
+                contexto de restrição de recursos.
+              </p>
+              <div class="hero-cta-row">
+                <a class="hero-cta" href="#sobre">Saiba mais</a>
+              </div>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+              <img src="images/brand-shape.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="stat-strip">
+            <div class="wrap">
+              <div class="stat-item">
+                <div class="stat-value">18</div>
+                <div class="stat-label">metas estratégicas</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">6</div>
+                <div class="stat-label">pesquisadores na liderança</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">9</div>
+                <div class="stat-label">instituições parceiras</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">5</div>
+                <div class="stat-label">anos de atuação</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ SOBRE ============ -->
+        <section id="sobre" class="section">
+          <div class="wrap">
+            <div class="section-head">
+              <h2>Sobre o INCT IA.Edu</h2>
+              <span class="section-head-accent" aria-hidden="true"></span>
+              <p>
+                O Programa INCT é uma iniciativa coordenada pelo CNPq (Conselho
+                Nacional de Desenvolvimento Científico e Tecnológico) que apoia
+                projetos em rede, envolvendo grandes grupos de pesquisa de
+                excelência articulados em todo o Brasil. Visa mobilizar grupos
+                de pesquisa, articular redes nacionais e internacionais,
+                impulsionar a pesquisa de fronteira e contribuir para o
+                desenvolvimento sustentável do país.
+              </p>
+            </div>
+
+            <ul class="trait-list">
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                Financiamento de longo prazo
+              </li>
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                Atuação temática estratégica
+              </li>
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                Forte articulação em rede
+              </li>
+              <li>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                Vínculos com empresas, políticas públicas e sociedade
+              </li>
+            </ul>
+
+            <div class="pillars">
+              <div class="pillar pillar-mission">
+                <h3>Missão</h3>
+                <p>
+                  <strong>Democratizar</strong> o uso da IA na resolução de
+                  problemas educacionais em ambientes com
+                  <strong>restrições de recurso</strong>.
+                </p>
+              </div>
+              <div class="pillar pillar-vision">
+                <h3>Visão</h3>
+                <p>
+                  Ser o principal <strong>centro de referência</strong> na
+                  criação de soluções de IA para a
+                  <strong>Educação Básica Pública</strong>.
+                </p>
+              </div>
+              <div class="pillar pillar-values">
+                <h3>Valores</h3>
+                <ul>
+                  <li>Impacto social</li>
+                  <li>Inovação criativa</li>
+                  <li>Sustentabilidade em larga escala</li>
+                  <li>Explicabilidade e transparência</li>
+                  <li>Uso ético de IA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ OBJETIVOS ============ -->
+        <section id="objetivos" class="section section-tint section-deco">
+          <img
+            class="section-deco-art"
+            src="images/brand-shape-2.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="wrap">
+            <div class="section-head">
+              <h2>Objetivos específicos</h2>
+              <span class="section-head-accent" aria-hidden="true"></span>
+              <p>
+                Dez objetivos organizados em quatro frentes de atuação do
+                instituto.
+              </p>
+            </div>
+
+            <div class="objectives">
+              <div class="objective">
+                <div class="objective-head">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                  >
+                    <path
+                      d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.5 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.6 1-2.1A6 6 0 0 0 12 3Z"
+                    />
+                  </svg>
+                  <h3>Pesquisa aplicada</h3>
+                </div>
+                <ul>
+                  <li>
+                    <span class="obj-tag">Obj. 1</span>Consolidar uma rede de
+                    pesquisa internacional e interinstitucional.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 2</span>Realizar estudos de
+                    vanguarda em Inteligência Artificial na Educação Desplugada
+                    (AIED Unplugged).
+                  </li>
+                </ul>
+              </div>
+
+              <div class="objective">
+                <div class="objective-head">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                  >
+                    <path d="M12 14l9-5-9-5-9 5 9 5Zm0 0v7m-9-7v4l9 5 9-5v-4" />
+                  </svg>
+                  <h3>Formação e transferência de conhecimento</h3>
+                </div>
+                <ul>
+                  <li>
+                    <span class="obj-tag">Obj. 4</span>Formar estudantes e
+                    profissionais em competências interdisciplinares e
+                    tecnológicas.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 5</span>Capacitar educadores,
+                    gestores e comunidades.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 6</span>Estabelecer canais de
+                    transferência de tecnologia e know-how para os setores
+                    industrial e governamental.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="objective">
+                <div class="objective-head">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                  >
+                    <circle cx="12" cy="12" r="9" />
+                    <path
+                      d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18"
+                    />
+                  </svg>
+                  <h3>Internacionalização</h3>
+                </div>
+                <ul>
+                  <li>
+                    <span class="obj-tag">Obj. 7</span>Exportar soluções para o
+                    Sul Global.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 9</span>Construir parcerias
+                    Norte-Sul-Sul.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="objective">
+                <div class="objective-head">
+                  <svg
+                    width="22"
+                    height="22"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                  >
+                    <path d="M11 5 6 9H2v6h4l5 4V5Z" />
+                    <path d="M15.5 8.5a5 5 0 0 1 0 7" />
+                  </svg>
+                  <h3>Divulgação científica e popularização da ciência</h3>
+                </div>
+                <ul>
+                  <li>
+                    <span class="obj-tag">Obj. 3</span>Publicar pesquisas em
+                    conferências internacionais e periódicos de alto impacto.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 8</span>Advogar em favor da AIED
+                    Desplugada.
+                  </li>
+                  <li>
+                    <span class="obj-tag">Obj. 10</span>Produzir livros, policy
+                    briefs e policy memos.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ MEMBROS ============ -->
+        <section id="membros" class="section section-deco">
+          <img
+            class="section-deco-art section-deco-art-br"
+            src="images/brand-shape.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="wrap">
+            <div class="section-head">
+              <h2>Membros</h2>
+              <span class="section-head-accent" aria-hidden="true"></span>
+              <p>
+                Pesquisadoras e pesquisadores à frente da coordenação, gestão e
+                áreas técnicas do instituto.
+              </p>
+            </div>
+
+            <div class="members-grid">
+              <div class="member">
+                <img
+                  src="images/members/ig-ibert-bittencourt.webp"
+                  alt="Ig Ibert Bittencourt"
+                  loading="lazy"
+                />
+                <h3>Ig Ibert Bittencourt</h3>
+                <p class="role">Coordenador</p>
+                <a
+                  class="univ"
+                  href="https://ufal.br"
+                  target="_blank"
+                  rel="noopener"
+                  >Universidade Federal de Alagoas</a
+                >
+                <p class="country">Brasil</p>
+              </div>
+              <div class="member">
+                <img
+                  src="images/members/seiji-isotani.webp"
+                  alt="Seiji Isotani"
+                  loading="lazy"
+                />
+                <h3>Seiji Isotani</h3>
+                <p class="role">Vice-coordenador</p>
+                <span class="univ">University of Pennsylvania</span>
+                <p class="country">EUA</p>
+              </div>
+              <div class="member">
+                <img
+                  src="images/members/mauna-rocha.webp"
+                  alt="Maúna Rocha"
+                  loading="lazy"
+                />
+                <h3>Maúna Rocha</h3>
+                <p class="role">Gestão e parcerias</p>
+                <span class="univ">INCT IA.Edu</span>
+                <p class="country">Brasil</p>
+              </div>
+              <div class="member">
+                <img
+                  src="images/members/thomaz-veloso.webp"
+                  alt="Thomaz Veloso"
+                  loading="lazy"
+                />
+                <h3>Thomaz Veloso</h3>
+                <p class="role">Liderança de Educação e Políticas Públicas</p>
+                <span class="univ">INCT IA.Edu</span>
+                <p class="country">Brasil</p>
+              </div>
+              <div class="member">
+                <img
+                  src="images/members/emanuel-queiroga.webp"
+                  alt="Emanuel Queiroga"
+                  loading="lazy"
+                />
+                <h3>Emanuel Queiroga</h3>
+                <p class="role">Liderança de Tecnologia</p>
+                <a class="univ" href="#" target="_blank" rel="noopener"
+                  >Universidade Tecnológica Federal do Paraná</a
+                >
+                <p class="country">Brasil</p>
+              </div>
+              <div class="member">
+                <img
+                  src="images/members/carlos-portela.webp"
+                  alt="Carlos Portela"
+                  loading="lazy"
+                />
+                <h3>Carlos Portela</h3>
+                <p class="role">Liderança de Pesquisa</p>
+                <a class="univ" href="#" target="_blank" rel="noopener"
+                  >Universidade Federal do Pará</a
+                >
+                <p class="country">Brasil</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ PARCEIROS ============ -->
+        <section id="parceiros" class="section section-tint section-deco">
+          <img
+            class="section-deco-art section-deco-art-tl"
+            src="images/brand-shape-2.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="wrap">
+            <div class="section-head">
+              <h2>Parceiros</h2>
+              <span class="section-head-accent" aria-hidden="true"></span>
+              <p>
+                O INCT IA.Edu tem como objetivo articular uma rede nacional e
+                internacional de universidades, centros de pesquisa, governos,
+                organizações da sociedade civil e parceiros do setor produtivo.
+                Essas parcerias serão desenvolvidas ao longo dos 5 anos de
+                projeto e visam conectar pesquisa, inovação, formação e
+                implementação em contextos reais, ampliando o alcance de
+                soluções de Inteligência Artificial na Educação acessíveis,
+                inclusivas e orientadas à redução das desigualdades. Veja os
+                parceiros que já embarcaram nessa missão:
+              </p>
+            </div>
+
+            <div class="partners-row">
+              <a
+                class="partner-card"
+                href="https://www.gov.br/cnpq/pt-br"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/cnpq.webp" alt="CNPq" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://www.fapeal.br/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/fapeal.webp" alt="FAPEAL" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://unesco.nees.ufal.br/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/unesco.webp" alt="UNESCO" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://nees.ufal.br"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/nees.webp" alt="NEES" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://iaedu.nees.ufal.br/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/ia-edu.webp" alt="IA.EDU" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://ufal.br"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/ufal.webp" alt="UFAL" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://ufal.br"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/ufpa.webp" alt="UFPA" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://ufpr.br/manual-de-marca-ufpr-sucom/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/ufpr.webp" alt="UFPR" />
+              </a>
+              <a
+                class="partner-card"
+                href="https://ufersa.edu.br/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img src="images/partners/ufersa.svg" alt="UFERSA" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ CONTATO ============ -->
+        <section id="contato" class="contact-band section-deco">
+          <img
+            class="section-deco-art section-deco-art-left"
+            src="images/brand-shape.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="wrap">
+            <div class="section-head">
+              <h2>Entre em contato</h2>
+              <span class="section-head-accent" aria-hidden="true"></span>
+              <p>Fale com a equipe do INCT IA.Edu.</p>
+            </div>
+
+            <div class="contact-container">
+              <div class="contact-form">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="nome">Nome</label>
+                      <input type="text" id="nome" name="nome" />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">E-mail</label>
+                      <input type="email" id="email" name="email" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn-enviar">
+                    Enviar mensagem
+                  </button>
+                </form>
+              </div>
+
+              <div class="contact-info">
+                <div class="contact-card">
+                  <div class="contact-icon">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <path d="m3 7 9 6 9-6" />
+                    </svg>
+                  </div>
+                  <div>
+                    <span>E-mail</span>
+                    <p>inct.ia.edu@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-card">
+                  <div class="contact-icon">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.79.65 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.43a2 2 0 0 1 2.11-.45c.86.31 1.75.53 2.65.65A2 2 0 0 1 22 16.92Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Telefone</span>
+                    <p>(91) 98065-6772</p>
+                  </div>
+                </div>
+
+                <div class="contact-card">
+                  <div class="contact-icon">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    >
+                      <path
+                        d="M12 21s-7-6.5-7-11a7 7 0 1 1 14 0c0 4.5-7 11-7 11Z"
+                      />
+                      <circle cx="12" cy="10" r="2.5" />
+                    </svg>
+                  </div>
+                  <div>
+                    <span>Localização</span>
+                    <p>Universidade Federal de Alagoas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="wrap">
+          <span
+            >© <span id="year"></span> INCT IA.Edu — Instituto Nacional de
+            Ciência e Tecnologia</span
+          >
+          <a class="js-goto-dashboard" href="#resultados"
+            >Painel de Resultados</a
+          >
+        </div>
+      </footer>
+    </div>
+    <div id="dashboard-view" style="display: none">
+      <div class="app-layout">
+        <!-- Sidebar Nav -->
+        <aside class="sidebar" id="sidebar" aria-label="Navegação Principal">
+          <div class="sidebar-header">
+            <a href="#" class="back-to-site js-goto-site">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.4"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              INCT IA.Edu
+            </a>
+
+            <h1 class="brand-title">Metas do Instituto</h1>
+          </div>
+
+          <div class="sidebar-nav">
+            <button class="btn-overview" id="btnOverview">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+              Visão Geral
+            </button>
+            <div id="navGroups"></div>
+          </div>
+        </aside>
+
+        <!-- Main Content Container -->
+        <main class="main-content">
+          <!-- Overview Panel -->
+          <section
+            class="view-panel active"
+            id="view-overview"
+            aria-labelledby="overview-heading"
+          >
+            <header class="page-header">
+              <div class="page-pretitle">Acompanhamento do Projeto</div>
+              <h2 id="overview-heading" class="page-title">
+                Progresso e Indicadores Globais
+              </h2>
+              <p class="page-subtitle">
+                Selecione uma meta técnica para explorar o detalhamento
+                analítico, subdivisões operacionais e corte temporal de entrega.
+              </p>
+              <div class="sync-badge" id="overviewUpdateTag">
+                <span class="sync-dot"></span> Sincronizado
+              </div>
+            </header>
+
+            <div id="overviewGroups"></div>
+          </section>
+
+          <!-- Dynamic Views Holder -->
+          <div id="detailViews"></div>
+        </main>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/router.js"></script>
+  </body>
+</html>
