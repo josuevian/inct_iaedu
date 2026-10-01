@@ -762,6 +762,10 @@ p {
   padding: 84px 0;
 }
 
+.section-tint + .contact-band {
+  padding-top: 0;
+}
+
 .contact-band .section-head p {
   color: var(--slate-600);
 }
